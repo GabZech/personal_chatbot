@@ -5,14 +5,15 @@ name = "pypi"
 
 [packages]
 langchain = "*"
-openai = "*"
 mammoth = "*"
 markdown = "*"
 chromadb = "*"
 tiktoken = "*"
+lark = "*"
+gpt4all = "*"
 
 [dev-packages]
 ipykernel = "*"
 
 [requires]
-python_version = "3.12"
+python_version = "3.9"
