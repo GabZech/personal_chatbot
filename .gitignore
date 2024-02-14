@@ -163,3 +163,4 @@ cython_debug/
 # MANUAL ADDITIONS
 .DS_Store
 data/
+src/sandbox.py
