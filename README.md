@@ -13,6 +13,7 @@
 2. run `pipenv install` to install all dependencies from the Pipfile
     - If you don't have pipenv install, run `pip install pipenv`
 3. Put your Markdown files under `data/raw`
+4. Pull your LLM from Ollama, e.g. `ollama run mistral`
 
 ### Usage
 
