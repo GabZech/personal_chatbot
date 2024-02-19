@@ -11,6 +11,10 @@ chromadb = "*"
 tiktoken = "*"
 lark = "*"
 gpt4all = "*"
+panel = "*"
+param = "*"
+jupyterlab = "*"
+notebook = "*"
 
 [dev-packages]
 ipykernel = "*"
