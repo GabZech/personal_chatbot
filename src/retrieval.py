@@ -1,5 +1,4 @@
 # GLOBAL VARIABLES
-chat_model = "Mistral"
 number_docs = 4 # number of docs to retrieve from vector database and pass into llm context window
 
 ###
@@ -14,8 +13,7 @@ embeddings = GPT4AllEmbeddings()
 vectordb = Chroma(persist_directory="./data/vectordb", embedding_function=embeddings)
 
 # similarity search
-#question = "Have we worked with any sports companies?"
-question = "Have we ever worked with any car companies?"
+question = "Have we worked with any sports companies?"
 
 docs = vectordb.similarity_search(
     question,
